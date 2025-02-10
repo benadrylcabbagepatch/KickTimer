@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "kicktimer",
+  "version": "${version}",
+  "name": "Kick Timer",
+  "description": "24-hour death ban mod",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.yourname.deathban.DeathBanMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "fabric-api": "*",
+    "minecraft": "1.21.1"
+  }
+}
